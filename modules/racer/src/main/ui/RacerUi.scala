@@ -25,7 +25,7 @@ final class RacerUi(helpers: Helpers):
               submitButton(cls := "button button-fat")(iconTag(cls := "car")(0), s.raceYourFriends())
             ),
             postForm(cls := "racer-home__practice", action := routes.Racer.practice)(
-              submitButton(cls := "button button-fat")(iconTag(cls := "car")(2), trans.site.practice())
+              submitButton(cls := "button button-fat")(iconTag(cls := "car jeep")(2), trans.site.practice())
             )
           ),
           div(cls := "racer-home__about")(
